@@ -1,1 +1,1 @@
-# rsschool-cv
+https://jumpmmi.github.io/rsschool-cv/cv
