@@ -8,7 +8,7 @@
 
 **Discord:** *anarchy6699*
 
-**Email:** *feliks1995@mail.ru*
+**Email:** *feliks2995@gmail.com*
 
 [GitHub](https://github.com/jumpmmi)
 
@@ -20,22 +20,22 @@ I've been diving for over 15 years and was a member of the national team, so, de
 * JavaScript (Basic)
 * Java (Basic)
 * Git, GitHub
-* SQL 
+* SQL
+* Apex(Basic)
 
 ## Code: ##
 ```
-public class OppositeNumber {
-        public static int opposite(int number)
-        {
-            return -number;
-        }
-    }
-```
+public with sharing class ContactService {
 
-## Education: ##
-* RS School stage 0 (Self-study)
-* RS School Course «JavaScript/Front-end. Stage 1» (in progress)
-* Online course Java Basics (Nail Alishev)
+    public static List<Contact> getContactsByAccountName(String name){
+        List<Contact> cont = new List<Contact>();
+        cont = [SELECT Id,Name
+        FROM Contact
+        WHERE Account.Name =: name];
+        return cont;
+    }
+}
+```
 
 ## Languages: ##
 * English (B1)
